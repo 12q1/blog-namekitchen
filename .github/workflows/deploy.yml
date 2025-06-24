@@ -5,6 +5,11 @@ on:
     branches:
       - main
 
+permissions:
+  contents: write # This is the crucial line
+  pages: write # If you're using GitHub Pages specifically
+  id-token: write # If you're using OpenID Connect
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
