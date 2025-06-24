@@ -1,0 +1,7 @@
+baseURL = 'https://12q1.github.io/blog-namekitchen/'
+languageCode = 'en-us'
+title = 'NameKitchen Blog'
+theme = 'PaperMod'
+
+[params]
+  defaultTheme = "auto"
